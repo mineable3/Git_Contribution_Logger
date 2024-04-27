@@ -6,4 +6,3 @@ Out-File -FilePath .\log.txt -Encoding ascii -InputObject $nextCommit
 
 git add .\log.txt
 git commit -m $date
-git push origin main
